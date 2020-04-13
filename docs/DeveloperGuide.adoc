@@ -88,7 +88,7 @@ endif::[]
 
 == Setting Up
 
-Refer to the guide <<SettingUp#, here>>.
+Refer to the guide link:{repoURL}/blob/master/docs/SettingUp.adoc[here].
 
 <<<
 
@@ -1091,21 +1091,22 @@ Certain properties of the application can be controlled (e.g user prefs file loc
 
 == Documentation
 
-Refer to the guide <<Documentation#, here>>.
+Refer to the guide link:{repoURL}/blob/master/docs/Documentation.adoc[here].
 
 <<<
 
 == Testing
 
-Refer to the guide <<Testing#, here>>.
+Refer to the guide link:{repoURL}/blob/master/docs/Testing.adoc[here].
 
 <<<
 
 == Dev Ops
 
-Refer to the guide <<DevOps#, here>>.
+Refer to the guide link:{repoURL}/blob/master/docs/DevOps.adoc[here].
 
 <<<
+
 [appendix]
 == Product Scope
 
@@ -1824,7 +1825,7 @@ Expected: Error due to invalid hour count, which can be converted to days if it 
 .. Prerequisites: List all tasks using the *_list_* command, and look for the task that is associated to the reminder that needs to be deleted.
 .. Test case: _delrem 1_ +
 Expected: The reminder for task at index 1 will be removed, if it exists.
-.. Other incorrect commands to try: *_delrm_* , *_delrm x_* (where x is larger than the list size)
+.. Other incorrect commands to try: *_delrem_* , *_delrem x_* (where x is larger than the list size)
 
 === Data Storage
 
