@@ -16,7 +16,16 @@ ifdef::env-github[]
 endif::[]
 :repoURL: https://github.com/AY1920S2-CS2103T-F09-2/main
 
-By: `AY1920S2-CS2103T-F09-2`      Since: `Jan 2020`      Licence: `MIT`
+[.text-center]
+By: `AY1920S2-CS2103T-F09-2`      Since: `Jan 2020`      Licence: `MIT` +
+{blank} +
+{blank} +
+A0190055L Ong Eden +
+A0187819J Amanda Lam +
+A0188384M Lim We Si, Jel +
+A0184679H Yap Dian Hao +
+A0187280Y Thng Yao Jie
+
 
 <<<
 toc::[]
