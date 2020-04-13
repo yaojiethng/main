@@ -20,7 +20,6 @@ endif::[]
 
 * <<UserGuide#, User Guide>>
 * <<DeveloperGuide#, Developer Guide>>
-//* <<LearningOutcomes#, Learning Outcomes>>
 * <<AboutUs#, About Us>>
 * <<ContactUs#, Contact Us>>
 
@@ -30,5 +29,6 @@ endif::[]
 _Marco Jakob_.
 * Libraries used: https://openjfx.io/[JavaFX], https://github.com/FasterXML/jackson[Jackson], https://github.com/junit-team/junit5[JUnit5]
 * JelphaBot is based on the AddressBook-Level3 project created by SE-EDU initiative at https://se-education.org
+* Icons used: https://www.freepik.com/[JelphaBot icon], https://www.pinclipart.com/pindetail/iioRTiJ_alarm-clock-comments-medication-reminders-icon-png-clipart/[Reminder popup icon]
 
 == Licence : link:LICENSE[MIT]
