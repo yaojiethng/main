@@ -104,7 +104,7 @@ public class UniqueReminderList implements Iterable<Reminder> {
         for (Reminder reminder : internalList) {
             if (reminder.getIndex().getOneBased() > index) {
                 int currentIndex = reminder.getIndex().getOneBased();
-                currentIndex -= index;
+                currentIndex -= 1;
                 reminder.setIndex(currentIndex);
             }
         }
