@@ -52,11 +52,11 @@ image::ug_figures/Ui.png[width="600"]
 === Overview of features
 The main features of JelphaBot are split into five tabs.
 
-* *<<Summary feature (Eden), Summary>>* -  Summary of the updates to your task list over the past day.
-* *<<Task Management (Yao Jie), Task List>>* - View and manage tasks in your task list.
-* *<<Calendar feature (Amanda), Calendar>>* - View your schedule on a specific day or within a specific month.
-* *<<Productivity feature (Jel), Productivity>>* - Track your overall productivity through metrics such as task completion rate.
-* *<<Reminder feature (Dian Hao), Reminder>>* -  Set and manage your upcoming reminders.
+* *<<summary, Summary>>* -  Summary of the updates to your task list over the past day.
+* *<<_task_management_yao_jie, Task List>>* - View and manage tasks in your task list.
+* *<<_calendar_amanda, Calendar>>* - View your schedule on a specific day or within a specific month.
+* *<<_productivity_tracking_jel, Productivity>>* - Track your overall productivity through metrics such as task completion rate.
+* *<<_set_reminders_dian_hao, Reminder>>* -  Set and manage your upcoming reminders.
 
 Each tab provides a specific feature aimed to help you manage your tasks and deadlines more productively!
 
@@ -187,6 +187,7 @@ Easily remember command shortcuts by checking the bolded letter in the title of 
 
 <<<
 // tag::summary[]
+[[summary]]
 === Summary (Eden)
 
 This will be the first panel you see after entering JelphaBot!
@@ -221,6 +222,7 @@ image::ug_figures/SummaryViewAfterTaskComplete.png[width="600"]
 
 <<<
 // tag::tasklist[]
+[#_task_management_yao_jie]
 === Task Management (Yao Jie)
 
 JelphaBot allows you to track and manage your tasks comprehensively as well!
@@ -533,6 +535,7 @@ Valid `SORTING_ORDER` values include `date`, `module`, and `priority`.
 <<<
 
 // tag::calendar[]
+[#_calendar_amanda]
 === Calendar (Amanda)
 
 JelphaBot also comes with a built-in calendar view that allows you to view your overarching tasks due on a monthly basis.
@@ -625,6 +628,7 @@ This command will display the corresponding calendar for this month and highligh
 
 <<<
 // tag::productivitytracker[]
+[#_productivity_tracking_jel]
 === Productivity Tracking (Jel)
 
 JelphaBot automatically tracks your productivity within the day, and displays a progress bar which allows you to track the completion progress of the tasks which are due in the coming week.
@@ -692,6 +696,7 @@ Exiting the application before stopping any running timer wil cause all recorded
 
 <<<
 //tag::reminder[]
+[#_set_reminders_dian_hao]
 === Set Reminders (Dian Hao)
 JelphaBot allows you to set reminders for tasks and manage your tasks comprehensively!
 You can view all your existing reminders from the reminders tab.

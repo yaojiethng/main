@@ -266,11 +266,11 @@ Users may experience information overload when introduced to the large number of
 To prevent users from being overwhelmed, the available commands in Jelphabot are organised into various tabs according to their respective functionalities.
 JelphaBot contains 5 different tabs, each displaying a specific set of information and relevant functionality.
 
-* *Summary Tab* - <<Summary feature (Eden), Summary>> of the updates to the task list over the past day.
-* *Task List Tab* - <<Task Grouping feature in Task List tab (Yao Jie), View and manage tasks>> in the task list.
-* *Calendar Tab* - <<Calendar feature (Amanda), Overview of user's schedules>> in specific days or months.
-* *Productivity Tab* - <<Productivity feature (Jel), Track overall productivity>> through metrics such as task completion rate.
-* *Reminder Tab* - <<Reminder feature (Dian Hao), Set and manage>> upcoming reminders.
+* *Summary Tab* - <<_summary_feature_eden, Summary>> of the updates to the task list over the past day.
+* *Task List Tab* - <<_task_grouping_feature_in_task_list_tab_yao_jie, View and manage tasks>> in the task list.
+* *Calendar Tab* - <<calendar, Overview of user's schedules>> in specific days or months.
+* *Productivity Tab* - <<_productivity_feature_jel, Track overall productivity>> through metrics such as task completion rate.
+* *Reminder Tab* - <<_reminder_feature_dian_hao, Set and manage>> upcoming reminders.
 
 // tag::changetab[]
 [[ChangeTab]]
@@ -325,6 +325,7 @@ The display panel is updated by calling `MainWindow#handle{tabLabel}` where `{ta
 
 <<<
 // tag::summary[]
+[#_summary_feature_eden]
 === Summary feature (Eden)
 
 JelphaBot has a Summary feature which provides an overview of the tasks due within the day as well as all tasks that have been complete within the day.
@@ -405,6 +406,7 @@ This makes it very user-friendly, and it also easily scalable in the future as e
 
 <<<
 // tag::taskgroups[]
+[#_task_grouping_feature_in_task_list_tab_yao_jie]
 === Task Grouping feature in Task List tab (Yao Jie)
 
 ==== Implementation
@@ -571,6 +573,7 @@ This means that a returned `UnmodifiableObservableSet` from `UniqueModuleCodeSet
 
 <<<
 // tag::calendar[]
+[[calendar]]
 === Calendar feature (Amanda)
 
 JelphaBot has a calendar feature which provides an overarching view of users' schedules and to allow them to keep track of their due tasks.
@@ -689,6 +692,7 @@ The ease of implementation is crucial given the tight deadlines we have to meet 
 <<<
 
 // tag::productivityImplementation[]
+[#_productivity_feature_jel]
 === Productivity feature (Jel)
 
 JelphaBot has a productivity panel of this feature which provides an overarching view of user's overall productivity.
@@ -853,6 +857,7 @@ Restricting the number of running timers listed will also adversely affect user 
 
 <<<
 // tag::reminder[]
+[#_reminder_feature_dian_hao]
 === Reminder feature (Dian Hao)
 
 JelphaBot has a reminder feature that reminds users whenever they have tasks that will be overdue soon.
