@@ -17,7 +17,7 @@ ifdef::env-github[]
 endif::[]
 :repoURL: https://github.com/AY1920S2-CS2103T-F09-2/main
 
-By: `Team 2103T-F09-02`      Since: `Jan 2020`      Licence: `MIT`
+By: `AY1920S2-CS2103T-F09-2`      Since: `Jan 2020`      Licence: `MIT`
 
 <<<
 toc::[]
@@ -28,7 +28,7 @@ toc::[]
 Welcome to JelphaBot! +
 This user guide is written for *new and experienced users of Jelphabot*. This guide will equip you with the basics so that you can quickly enjoy and master the features offered.
 
-If this is not your first time using JelphaBot, you can refer to <<Quick Start>> section to get started right away!
+If this is not your first time using JelphaBot, you can refer to <<Quick Start>> to get started right away!
 
 === What is JelphaBot?
 
@@ -79,7 +79,7 @@ endif::[]
 ifndef::env-github[]
 | image:icons/bulb.png[width=40] | Tips and tricks that might be useful
 | image:icons/note.png[width=40] | Additional information that is good to know
-| image:icons/Important.png[width=40] | Important pointers to take note
+| image:icons/Important.png[width=40] | Important pointers to note
 endif::[]
 | <<hyperlink, Hyperlink>> | Link to another section or website
 // also known as TIP, NOTE, IMPORTANT
@@ -109,9 +109,9 @@ image::ug_figures/UiAnnotated.png[]
 +
 <<<
 +
-5. Some commands should already be present in JelphaBot.
+5. Some tasks should already be present in JelphaBot.
 [NOTE]
-JelphaBot is initialized with a sample list of tasks, to test if you installed JelphaBot correctly! +
+JelphaBot is initialized with a sample list of tasks, to test if you've installed JelphaBot correctly! +
 If you do not see this, please try deleting JelphaBot and its accompanying files and folders and repeat steps 2 to 4.
 6. Type a command in the command box and press kbd:[Enter] to execute it. +
 e.g. typing *`help`* and pressing kbd:[Enter] will open the help window. To start entering your own commands, use `clear` to reset JelphaBot.
@@ -182,7 +182,7 @@ Easily remember command shortcuts by checking the bolded letter in the title of 
 === Summary (Eden)
 This tab will be the first panel you see after entering JelphaBot!
 
-This section gives you a minimalistic overview of the day, namely tasks that you have due within the day, and tasks that you have completed within the day!
+This section gives you a minimalistic overview of the day, namely tasks that you have due within the day, and tasks that you have completed within the day.
 Tasks displayed will only have it's module code as well as their description for simplicity!
 
 ==== Viewing the summary tab: `summary`
@@ -257,7 +257,7 @@ e.g. `[t/TAG]...` can be used once as `t/project`, or multiple times like `t/pro
 [[add]]
 ==== Adding a Task: `add`
 
-You can add new tasks to your task list in JelphaBot with the `add` command. This allows you to update your task lists with new tasks whenever they arise.
+You can add new tasks to your task list in JelphaBot with the `add` command. This allows you to update your task list with new tasks whenever they arise.
 
 Format: `add d/DESCRIPTION dt/DATETIME m/MODULE_CODE [p/PRIORITY] [t/TAG]...`
 
@@ -407,7 +407,7 @@ You can remove all the task's tags by typing `t/` without specifying any tags af
 
 ==== Completing a Task : `done`
 
-When you complete a task, you can mark the corresponding task as done in JelphaBot. The task's status will automatically be updated in the display. +
+When you complete a task, you can mark it as done in JelphaBot. The task's status will automatically be updated in the display. +
 Format: `done INDEX`
 
 [.text-center]
@@ -552,7 +552,7 @@ Highlighting of Dates: Today's date would be highlighted in dark blue, while oth
 
 <<<
 ==== Changing month and year view of your Calendar : `calendar`
-You can navigate the calendar panel to another month and year by specifying it. The calendar panel would be updated accordingly
+You can navigate the calendar panel to another #month# and year by specifying it. The calendar panel would be updated accordingly
 while highlighting the first day of the month.
 The task list panel on the left will display the tasks due on the first day of the month. +
 Format: `calendar MONTHYEAR`
