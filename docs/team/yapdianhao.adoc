@@ -42,7 +42,7 @@ https://github.com/AY1920S2-CS2103T-F09-2/main/pull/207[#207],
 https://github.com/AY1920S2-CS2103T-F09-2/main/pull/309[#309],
 https://github.com/AY1920S2-CS2103T-F09-2/main/pull/346[#346]
 
-* *Code contributed*: https://nus-cs2103-ay1920s2.github.io/tp-dashboard/#search=yapdianhao&sort=groupTitle&sortWithin=title&since=2020-02-14&timeframe=commit&mergegroup=false&groupSelect=groupByRepos&breakdown=false[Code contributed]
+* *Code contributed*: https://nus-cs2103-ay1920s2.github.io/tp-dashboard/#search=yapdianhao&sort=groupTitle&sortWithin=title&since=2020-02-14&timeframe=commit&mergegroup=false&groupSelect=groupByRepos&breakdown=false[View on Reposense]
 
 * *Minor enhancement*: Increased code coverage from 58% to 62% through writing new tests and improved existing tests.
 ** Relevant pull requests:
@@ -55,6 +55,7 @@ https://github.com/AY1920S2-CS2103T-F09-2/main/pull/76[#76]
 ** Documentation:
 *** Updated JelphaBot's architecture diagram for Developer Guide.
 *** Updated the `Storage` component's sequence diagram for Developer Guide.
+*** Added Use Case 7 and 8 for Developer Guide.
 *** Added screenshots and descriptions as visual aids for User Guide.
 ** Community:
 *** Contributed to forum discussions: requesting usage for third-party libraries (controlsfx) https://github.com/nus-cs2103-AY1920S2/forum/issues/81[#81]
