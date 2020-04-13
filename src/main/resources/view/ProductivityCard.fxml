@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!-- @@author Clouddoggo -->
+
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+<VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <VBox maxHeight="-Infinity" prefHeight="118.0" prefWidth="195.0">
             <padding>
@@ -50,7 +52,7 @@
                 <Insets bottom="4" left="15" right="4" top="3" />
             </padding>
             <children>
-                <Label styleClass="cell_medium_label" text="Time Spent">
+                <Label styleClass="cell_medium_label" text="Time Spent" underline="true">
                     <minWidth>
                         <!-- Ensures that the label text is never truncated -->
                         <Region fx:constant="USE_PREF_SIZE" />
@@ -69,7 +71,7 @@
                 <Insets bottom="4" left="15" right="4" top="3" />
             </padding>
             <children>
-                <Label styleClass="cell_medium_label" text="Running Timer(s)">
+                <Label styleClass="cell_medium_label" text="Running Timer(s)" underline="true">
                     <minWidth>
                         <!-- Ensures that the label text is never truncated -->
                         <Region fx:constant="USE_PREF_SIZE" />

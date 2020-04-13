@@ -1,4 +1,5 @@
 //@@author eedenong
+//files in the summary package was adapted from clouddoggo's productivity package.
 package seedu.jelphabot.model.summary;
 
 import static java.util.Objects.requireNonNull;
