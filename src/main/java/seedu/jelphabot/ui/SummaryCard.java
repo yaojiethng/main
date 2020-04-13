@@ -29,7 +29,7 @@ public class SummaryCard extends UiPart<Region> {
     public SummaryCard(Summary summary) {
         super(FXML);
         this.summary = summary;
-        breakline.setText(BREAKLINE_STRING);
+        // breakline.setText(BREAKLINE_STRING);
         tasksDueToday.setText(summary.getTasksIncompleteDueToday().getTasksDueTodayString());
         tasksCompletedToday.setText(summary.getTasksCompletedToday().getTasksCompletedTodayString());
     }

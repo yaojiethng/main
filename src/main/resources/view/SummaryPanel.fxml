@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- @@author eedenong -->
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
 
-<VBox stylesheets="@JelphaBotTheme.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <ListView fx:id="summaryPanelListView"/>
+      <VBox prefHeight="400.0" prefWidth="385.0" stylesheets="@JelphaBotTheme.css">
+         <children>
+            <ListView fx:id="summaryPanelListView" />
+         </children>
+      </VBox>
+      <StackPane prefHeight="150.0" prefWidth="200.0" />
    </children>
-</VBox>
+</HBox>

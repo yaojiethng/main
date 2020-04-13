@@ -640,9 +640,7 @@ Format: `reminder INDEX days/DAYS hours/HOURS`
 .Example of expected result after running `reminder 1 days/1 hours/1`
 image::ug_figures/addReminder.png[width="600"]
 
-[.text-center]
-.Example of new reminder appended to reminder list panel after running `reminder 1 days/1 hours/1`
-image::ug_figures/addReminderTab.png[width="600"]
+
 
 
 ****
@@ -668,11 +666,6 @@ Format: `delrem INDEX`
 [.text-center]
 .Example of expected result after running `delrem 1`
 image::ug_figures/delReminder.png[width="600"]
-
-[.text-center]
-.Example of reminder removed from reminder list panel after running `delrem 1`
-image::ug_figures/delReminderTab.png[width="600"]
-
 
 ****
 * Removes a reminder associated to the task at the specified `INDEX`.
