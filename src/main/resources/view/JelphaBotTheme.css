@@ -1,12 +1,7 @@
 * {
-    -fx-background-pink: #f0f8ff;
+    -fx-background-pink: #B0C4DE;
     -fx-background-purple: #676773;
-    -fx-menu-purple: #D8BFD8;;
-    /*-fx-secondary-green: #1C8585;*/
-    /*-fx-tertiary-green: #75BE86;*/
-    /*-fx-quartenary-green: #afd6a7;*/
-    /*-fx-text: white;*/
-    /*-fx-paneShadow: dropShadow(one-pass-box, rgba(0, 0, 0, 0.25), 10, 0, 0, 4);*/
+    -fx-menu-purple: #708090;
 }
 
 .background {
@@ -32,16 +27,13 @@
     -fx-font-size: 12pt;
     -fx-font-family: "S";
 }
+
 .tab {
     -fx-background-color: -fx-background-pink;
     -fx-background-radius: 2;
     -fx-background-insets: 0 3 0 0;
     -fx-pref-width: 75;
     -fx-pref-height: 23;
-}
-
-.tab-pane {
-    -fx-padding: 0 0 0 1;
 }
 
 .tab-pane .tab-header-area {
@@ -94,7 +86,7 @@
 
 .split-pane:horizontal .split-pane-divider {
     -fx-background-color: -fx-background-pink;
-    -fx-border-color: transparent transparent transparent #4d4d4d;
+    -fx-border-color: transparent transparent transparent transparent;
 }
 
 .list-view {
@@ -117,11 +109,11 @@
 }
 
 .list-cell:filled:even {
-    -fx-background-color: #ffe1de;
+    -fx-background-color: #f0f8ff;
 }
 
 .list-cell:filled:odd {
-    -fx-background-color: #f3a3a7;
+    -fx-background-color: #FDF5E6;
 }
 
 .list-cell .label {
@@ -153,7 +145,7 @@
 .pane-with-border {
     -fx-background-color: -fx-background-pink;
     -fx-border-color: -fx-background-pink;
-    -fx-border-top-width: 1px;
+    /*-fx-border-top-width: 1px;*/
 }
 
 .status-bar {
@@ -171,21 +163,8 @@
     -fx-text-fill: #fff6b0 !important;
 }
 
-.status-bar .label {
-    -fx-font-family: "Segoe UI Light";
-    -fx-text-fill: white;
-    -fx-padding: 4px;
-    -fx-pref-height: 30px;
-}
-
-.status-bar-with-border {
-    -fx-background-color: derive(#fee9dc, 30%);
-    -fx-border-color: derive(#383838, 25%);
-    -fx-border-width: 1px;
-}
-
-.status-bar-with-border .label {
-    -fx-text-fill: white;
+.result-pane-with-border {
+    -fx-background-color: #FFE4E1;
 }
 
 .grid-pane {
@@ -207,13 +186,13 @@
 }
 
 .menu-bar {
-    -fx-background-color: #D8BFD8;
+    -fx-background-color: -fx-menu-purple;
 }
 
 .menu-bar .label {
     -fx-font-size: 14pt;
-    -fx-font-family: "Segoe UI Light";
-    -fx-text-fill: black;
+    -fx-font-family: "Segoe UI";
+    -fx-text-fill: white;
     -fx-opacity: 0.9;
 }
 
@@ -349,7 +328,7 @@
 
 #resultDisplay .content {
     /*second element: highlight, last element: panel color*/
-    -fx-background-color: transparent, #FFE1DE, transparent, #FFE1DE;
+    -fx-background-color: transparent, #FFF0F5, transparent, #FFF0F5;
     -fx-background-radius: 0;
 }
 

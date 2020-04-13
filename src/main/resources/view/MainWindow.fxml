@@ -107,7 +107,7 @@
                 </TabPane>
 
                 <StackPane fx:id="resultDisplayPlaceholder" maxHeight="300.0" minHeight="100" prefHeight="135"
-                           prefWidth="600.0" styleClass="pane-with-border" VBox.vgrow="SOMETIMES">
+                           prefWidth="600.0" styleClass="result-pane-with-border" VBox.vgrow="SOMETIMES">
                     <padding>
                         <Insets bottom="5" left="10" right="10" top="5" />
                     </padding>
