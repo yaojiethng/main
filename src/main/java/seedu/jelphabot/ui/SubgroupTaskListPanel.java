@@ -21,7 +21,7 @@ import seedu.jelphabot.model.task.tasklist.SubgroupTaskList;
  */
 public class SubgroupTaskListPanel extends UiPart<Region> {
 
-    private static final int PREF_CELL_HEIGHT = 100;
+    private static final int PREF_CELL_HEIGHT = 110;
     private static final String FXML = "SubgroupTaskListPanel.fxml";
     private final Logger logger = LogsCenter.getLogger(TaskListPanel.class);
 
