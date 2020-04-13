@@ -65,7 +65,6 @@ https://github.com/nus-cs2103-AY1920S2/addressbook-level3/pull/25/files#r3989894
 |===
 
 include::../UserGuide.adoc[tag=productivitytracker]
-include::../UserGuide.adoc[tag=feedback]
 
 <<<
 

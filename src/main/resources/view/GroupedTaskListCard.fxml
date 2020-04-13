@@ -3,7 +3,10 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<HBox xmlns:fx="http://javafx.com/fxml/1" id="cardPane" fx:id="cardPane" alignment="CENTER_LEFT" fillHeight="false" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="400.0" spacing="16.0" xmlns="http://javafx.com/javafx/11">
+<HBox id="cardPane" fx:id="cardPane" alignment="CENTER_LEFT" fillHeight="false" maxHeight="-Infinity"
+      minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="400.0" spacing="16.0"
+      style="-fx-background-radius: 10,10,10,10; -fx-background-color: null;"
+      xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <Label fx:id="id" styleClass="cell_big_label">
         <minWidth>
             <!-- Ensures that the label text is never truncated -->
@@ -30,7 +33,7 @@
             <RowConstraints vgrow="NEVER" />
         </rowConstraints>
     </GridPane>
-    <Label fx:id="dateTime" styleClass="cell_medium_label" text="\$dateTime" />
+    <Label fx:id="dateTime" minHeight="100.0" styleClass="cell_medium_label" text="\$dateTime" />
     <padding>
         <Insets left="16.0" right="16.0" />
     </padding>
