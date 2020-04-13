@@ -526,7 +526,7 @@ Scalable when more groupings are added.
 *Reason for chosen implementation:* +
 The current solution was chosen with integration with other tabs in mind.
 This implementation can easily be expanded to other tabs in a future version if other tabs also inherit from `ViewTaskList`.
-This allows *_add_*, *_edit_*, _delete and *_done_* commands to be executable from any tab, while still only requiring one `ViewTaskList` to be instantiated, which saves performance.
+This allows *_add_*, *_edit_*, *_delete_* and *_done_* commands to be executable from any tab, while still only requiring one `ViewTaskList` to be instantiated, which saves performance.
 
 //===== Aspect 3: Hide empty Categories in `GroupByDateTaskList`
 //
