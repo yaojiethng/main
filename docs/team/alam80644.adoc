@@ -66,6 +66,8 @@ https://github.com/AY1920S2-CS2103T-F09-2/main/pull/78[#78]
 *** Managed releases `v1.2.1` - `v1.3` (2 releases) on GitHub
 *** Updated `SampleDataUtil` to propagate an empty instance of the app with time-sensitive test data to streamline manual testing.
 (Pull requests: https://github.com/AY1920S2-CS2103T-F09-2/main/pull/357[#357])
+*** Added the screenshots of the figures in the User Guide
+(Pull requests: https://github.com/AY1920S2-CS2103T-F09-2/main/pull/398[#398])
 
 ** Documentation:
 *** Added diagrams and documentation for the Calendar feature in the Developer Guide.
